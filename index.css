@@ -168,6 +168,7 @@ header table {
     background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://raw.githubusercontent.com/ReynoldsProductions/ReynoldsProductions.github.io/main/images_small/Profile_web.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
     background-size:cover;
     background-repeat:no-repeat;
+    background-blend-mode: multiply;
 }
 #work {
     width:92vw;
@@ -390,7 +391,16 @@ button:focus {
         color:#000;
     }
     #about h1 {
-    font-size:25px;
-    word-wrap:break-word;
-    padding: 40% 0 0 0;
+        font-size:25px;
+        word-wrap:break-word;
+        padding: 40% 0 0 0;
+    }
+}
+@media (max-width: 500px){
+    header{
+        width: 96vw;
+        background: #fff;
+        padding: 4vh 2vw;
+        position: absolute;   
+    }
 }
