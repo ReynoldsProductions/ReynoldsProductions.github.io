@@ -211,6 +211,9 @@ header table {
     width:92vw;
     padding:6vh 4vw;
 }
+#contact a {
+    color: black;
+}
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
@@ -304,7 +307,21 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8); 
 }
-
+a .contact {
+    color: #000;
+}
+@media (max-width: 1450px){
+    .btn_one {
+        font-size:11px;
+        width: 50%;
+        margin: 2vh 8vw;    
+    }
+}
+@media (max-width: 1040px){
+    #logo {
+        font-size: 1.2em;
+    }
+}
 @media (max-width: 1000px){
     #photos {
     columns:1;
